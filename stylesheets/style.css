@@ -80,6 +80,7 @@ footer {
     position: relative;
     border: 0;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .btn-big {
@@ -167,6 +168,7 @@ nav a {
     font-size: 12px;
     margin: 0 18px;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 nav a:hover {
@@ -344,6 +346,7 @@ nav a:hover {
     text-decoration: none;
     color: var(--style-color);
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .section-5 a:hover {
@@ -512,13 +515,14 @@ footer span {
     color: #aaacaf;
 }
 
-footer a {
+.unsubscribe {
     text-decoration: none;
     color: #aaacaf;
     transition: 0.2s;
+    cursor: pointer;
 }
 
-footer a:hover {
+.unsubscribe:hover {
     color: var(--p-text-color);
 }
 
@@ -529,6 +533,7 @@ footer a:hover {
     height: 20px;
     border: 0;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .footer.social div:hover {
