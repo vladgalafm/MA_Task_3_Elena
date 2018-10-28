@@ -1,0 +1,17 @@
+Header:
+- Belinda
+- OpenSans Semibold
+- Ubuntu Bold
+- PTSans Bold
+
+Contain divs:
+- PTSans Bold
+- PTSans Regular
+
+Fetuared on:
+- Belinda
+- NexaRegular
+- Cabin Regular
+- NexaHeavy
+ 
+Use only woff and woff2
