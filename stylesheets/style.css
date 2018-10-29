@@ -116,6 +116,7 @@ p {
     padding: 60px 0 115px;
     z-index: 1;
     background: url("../img/Layer7.png") 50% 0 no-repeat;
+    background-size: cover;
     position: relative;
     color: #ffffff;
 }
