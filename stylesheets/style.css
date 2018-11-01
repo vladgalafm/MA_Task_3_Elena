@@ -193,7 +193,7 @@ p {
     z-index: 3;
     display: inline-block;
     vertical-align: middle;
-    width: 105px;
+    width: 100px;
     height: 2px;
     background: #4d7879;
 }
@@ -270,7 +270,7 @@ p {
     top: -20px;
     left: 0;
     height: 2px;
-    width: 110%;
+    width: 100%;
     border: 0;
     background-image: linear-gradient(to right, #e2e3e4, #f3f3f4);
 }
@@ -351,7 +351,6 @@ p {
 
 .s-6 {
     position: relative;
-    display: inline-block;
     width: 45%;
     text-align: left;
 }
@@ -396,16 +395,15 @@ p {
     position: relative;
 }
 
-.section-7 .content > * {
-    display: inline-block;
-    vertical-align: top;
+.s-7-img {
+    float: left;
 }
 
 .s-7.for-you {
     position: relative;
-    margin-left: 30px;
-    width: calc(100% - 264px - 30px - 5px);
+    width: 50%;
     text-align: left;
+    float: right;
 }
 
 .s-7-h2 {
@@ -475,7 +473,7 @@ p {
 .footer {
     box-sizing: inherit;
     position: relative;
-    padding: 20px 90px;
+    padding: 20px 0;
 }
 
 .copyright {

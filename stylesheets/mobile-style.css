@@ -1,0 +1,135 @@
+@media screen and (min-width: 320px) and (max-width: 619px){
+    .content {
+        margin: 0 20px;
+    }
+    .navigation,
+    .content,
+    .featured-on,
+    .s-2, .s-3, .s-5, .s-6, .s-7.for-you {
+        text-align: center;
+    }
+    /* HEADER */
+    .nav-ref {
+        display: inline-block;
+        margin: 0;
+    }
+    .nav-ref:first-of-type,
+    .nav-ref:nth-of-type(2),
+    .nav-ref:nth-last-of-type(2) {
+        margin-right: 20px;
+    }
+    .header-p::before,
+    .header-p::after {
+        width: calc(10% - 10px);
+    }
+    .header-p::before {
+        margin-right: 3%;
+    }
+    .header-p::after {
+        margin-left: 3%;
+    }
+    /* SECTION 2 */
+    .s-2 {
+        position: relative;
+        display: inline-block;
+        width: 45%;
+        padding-top: 65px;
+        float: none;
+    }
+    .s-2.amateurs {
+        margin-left: calc(100% - 2*45% - 5px);
+        margin-right: 0;
+    }
+    .s-2.everyone {
+        margin-top: 35px;
+    }
+    /* SECTION 3 */
+    .s-3 {
+        width: 70%;
+        min-width: 264px;
+    }
+    .s-3.responsive-email {
+        margin-bottom: 35px;
+        float: none;
+    }
+    .s-3.compatible-template {
+        float: none;
+    }
+    .s-3-p::before {
+        margin: 0 auto;
+        width: 80%;
+        background: #e2e3e4;
+    }
+    /* SECTION 4 */
+    .s-4-h2 {
+        display: inline-block;
+    }
+    .s-4-p::before {
+        margin: 0 auto;
+        width: 80%;
+        background: #e2e3e4;
+    }
+    /* SECTION 5 */
+    .s-5 {
+        min-width: 181px;
+        width: 45%;
+        float: none;
+    }
+    .s-5.compatibility {
+        margin: 0 calc((100% - 2*45% - 5px)/2);
+    }
+    .s-5.layered-psd,
+    .s-5.compatibility {
+        margin-bottom: 35px;
+    }
+    .s-5-p::before {
+        margin: 0 auto;
+        width: 90%;
+        background: #e2e3e4;
+    }
+    /* SECTION 6 */
+    .s-6 {
+        width: 80%;
+        display: inline-block;
+    }
+    .s-6.send-it {
+        float: none;
+        margin-bottom: 35px;
+    }
+    .s-6.nice-to-see {
+        float: none;
+    }
+    .s-6-h2 {
+        display: inline-block;
+    }
+    .s-6-p::before {
+        margin: 0 auto;
+        width: 90%;
+        background: #e2e3e4;
+    }
+    /* SECTION 7 */
+    .s-7-img {
+        float: none;
+        display: inline-block;
+        margin-bottom: 35px;
+    }
+    .s-7.for-you {
+        display: inline-block;
+        width: 80%;
+        float: none;
+    }
+    .s-7-p::before {
+        margin: 0 auto;
+        width: 90%;
+        background: #e2e3e4;
+    }
+    /* SECTION 8 */
+    .featured-on > img {
+        display: inline-block;
+        margin: 0 20px 20px;
+    }
+    /* FOOTER */
+    .social {
+        padding-top: 20px;
+    }
+}
